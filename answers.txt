@@ -1,0 +1,115 @@
+
+
+Runtime:
+
+1. O(n)
+
+3 7 55 128 72
+
+result = [128, 72]
+
+5 items means
+comparisons: 5
+moves: 5        
+O(N)
+
+
+2. starting at least efficient:
+
+O(2^n)
+O(n^2)
+O(n log n)
+O(n)
+O(log n)
+O(1)
+
+
+
+n  *  n
+n  *  logn
+n  *    1
+logn *  1
+1
+
+Stacks & Queues:
+1.
+	1. 	Stack
+	2.	Queue
+	3.	Queue
+2. 
+	1. Standing in line at grocery store
+	2. Reading a book (first page writing is the first page reading)
+3. 	
+	1. Hansel and Gretle breadcrums as they go into the forrest and finding there way back as they go out
+ 	2. washing and stacking dishes (last one washed is the first one used)
+
+
+Linked Lists:
+
+1.
+	Nodes
+	1. "Apple" next, "Berry" next, "Cherry" next
+	Data
+	2. "Apple", "Berry", "Cherry"
+	Head
+	3. LList
+	Tail
+	4. "Cherry" next
+
+2. 
+	Doubly -> every node points to previous and next node
+	Singly -> every node point to the next node
+
+
+3.
+	because we can reach the end of the list in O(1) time instead of O(n) time (1 step and you are at the end of the list)
+ 	HEAD <-> 3 <-> 5 <-> 6 <-> 9  <->TAIL
+	head->next->next->next->next->next = tail->prev
+
+O(2) == O(1000) == O(1)
+O(n) == O(1000n) == O(n/50)
+O(n^2) == O(50*n^2)
+O(n!)
+n = 1 billion
+
+Trees:
+
+1.
+food, italian, indian, mexican, lasagna, pizza, tikka masala, saag, burrito
+
+
+
+2.
+food, italian, lasagna, pizza, thin crust, chicago-style
+
+3.
+When going left it is always less than and going to the right its always greater than
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
