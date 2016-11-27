@@ -48,8 +48,8 @@ def sum_zero_1(numbers):
 
     result = []
 
-    # Hint: the following line, "s = set(numbers)", is O(n) ---
-    # we'll learn exactly why later
+    # the following line, "s = set(numbers)", is O(n) ---
+    
     s = set(numbers)
 
     for x in s:
